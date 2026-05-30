@@ -1,59 +1,79 @@
+// src/data/projectsData.js
 const projectsData = [
   {
-    id: 1,
-    title: "Сайт для кафе «Уют»",
-    category: "Websites",
-    image: "https://via.placeholder.com/300x200",
-    description: "Современный сайт для кафе с онлайн-меню"
-  },
-  {
-    id: 2,
-    title: "Флаер для концерта",
-    category: "Flayers",
-    image: "https://via.placeholder.com/300x200",
-    description: "Яркий флаер для рок-концерта"
-  },
-  {
-    id: 3,
-    title: "Веб-портфолио фотографа",
-    category: "Websites",
-    image: "https://via.placeholder.com/300x200",
-    description: "Стильное портфолио для фотографа"
-  },
-  {
-    id: 4,
-    title: "Визитка дизайнера",
+    img: "/img/Triangle_350x197.jpg",
     category: "Business Cards",
-    image: "https://via.placeholder.com/300x200",
-    description: "Минималистичная визитная карточка"
+    name: "Triangle Card"
   },
   {
-    id: 5,
-    title: "Флаер для фестиваля",
-    category: "Flayers",
-    image: "https://via.placeholder.com/300x200",
-    description: "Креативный флаер музыкального фестиваля"
-  },
-  {
-    id: 6,
-    title: "Корпоративный сайт",
+    img: "/img/200.jpg",
     category: "Websites",
-    image: "https://via.placeholder.com/300x200",
-    description: "Сайт для IT-компании"
+    name: "Website Design 200"
   },
   {
-    id: 7,
-    title: "Визитка для юриста",
-    category: "Business Cards",
-    image: "https://via.placeholder.com/300x200",
-    description: "Строгая визитка в классическом стиле"
-  },
-  {
-    id: 8,
-    title: "Рекламный флаер",
+    img: "/img/codystretch.jpg",
     category: "Flayers",
-    image: "https://via.placeholder.com/300x200",
-    description: "Флаер для распродажи"
+    name: "Cody Stretch Flyer"
+  },
+  {
+    img: "/img/dia.jpg",
+    category: "Websites",
+    name: "DIA Website"
+  },
+  {
+    img: "/img/emi_haze.jpg",
+    category: "Business Cards",
+    name: "Emi Haze Card"
+  },
+  {
+    img: "/img/mon.jpg",
+    category: "Flayers",
+    name: "Mon Flyer"
+  },
+  {
+    img: "/img/place200x290.png",
+    category: "Business Cards",
+    name: "Place Card"
+  },
+  {
+    img: "/img/place200x290_1.png",
+    category: "Flayers",
+    name: "Place Flyer 1"
+  },
+  {
+    img: "/img/place200x290_2.png",
+    category: "Websites",
+    name: "Place Website"
+  },
+  {
+    img: "/img/place200x290_3.png",
+    category: "Websites",
+    name: "Place Website 3"
+  },
+  {
+    img: "/img/the_ninetys_brand.jpg",
+    category: "Business Cards",
+    name: "Ninety's Brand Card"
+  },
+  {
+    img: "/img/transmission.jpg",
+    category: "Flayers",
+    name: "Transmission Flyer"
+  },
+  {
+    img: "/img/Triangle_003.jpg",
+    category: "Websites",
+    name: "Triangle Website"
+  },
+  {
+    img: "/img/Triangle_350x197.jpg",
+    category: "Websites",
+    name: "Triangle Website 2"
+  },
+  {
+    img: "/img/Triangle_350x197_1.jpg",
+    category: "Flayers",
+    name: "Triangle Flyer"
   }
 ];
 
