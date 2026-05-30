@@ -1,5 +1,4 @@
-// src/components/Portfolio/Portfolio.jsx
-import React, { Component } from 'react';
+import { Component } from 'react';
 import Toolbar from '../Toolbar/Toolbar';
 import ProjectList from '../ProjectList/ProjectList';
 import projectsData from '../../data/projectsData';

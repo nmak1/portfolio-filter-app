@@ -4,7 +4,7 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
-    'plugin:react/jsx-runtime',
+    'plugin:react/jsx-runtime', 
     'plugin:react-hooks/recommended',
   ],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
@@ -12,12 +12,11 @@ module.exports = {
   settings: { react: { version: '18.2' } },
   plugins: ['react-refresh'],
   rules: {
-    'react/jsx-no-target-blank': 'off',
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
     ],
-    'react/prop-types': 'off', // Отключаем, если используем TypeScript или не нужна строгая проверка
-    'no-console': ['warn', { allow: ['warn', 'error'] }], // Предупреждение при console.log
+    'react/prop-types': 'off', 
+    'no-unused-vars': 'warn', 
   },
 };
